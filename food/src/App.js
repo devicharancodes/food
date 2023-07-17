@@ -21,11 +21,11 @@ const App = () => {
   return (
     <div>
       <center>
-        <h1>FOOD RECEIPE APP</h1>
+        <h1>FOOD RECIPE APP</h1>
         <form onSubmit={submitHandler}>
           <input
             type='text'
-            placeholder='enter receipe'
+            placeholder='enter recipe'
             value={search}
             onChange={searchHandler}
           />
